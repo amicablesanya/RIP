@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvRowId"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:text="rowId"
+            android:textSize="15sp"
+            android:visibility="invisible"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:text="Heading"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvTouch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="touch to view details"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:padding="8dp"
+        android:textColor="#8b6b87" />
+
+    <LinearLayout
+        android:id="@+id/llSecret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+    <LinearLayout
+            android:id="@+id/llUid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="User-Id: "
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:id="@+id/tvUid"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:text="Uid"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="password: "
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:id="@+id/tvPwd"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:text="password"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

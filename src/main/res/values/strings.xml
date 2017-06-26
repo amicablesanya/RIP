@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RIP</string>
+    <string name="info">
+        Remember Ids &amp; Password (RIP) is a very simple application helps to
+        reduce mental effort to remember all your account ids and password.
+        \n \n
+        Store all your ids and password and retrieve safely so that
+        you never loose any of your account (of social media, website or bank etc).
+        \n \n
+        All you need to do is remember only one password that is for
+        RIP application and save all your ids and password in this app so that next
+        time when you need them you can get easily without wasting your time.
+        \n \n
+        RIP doesn\'t require any permission to make sure that your data is safe \n
+        * It doesn\'t make any external changes in your device, \n
+        * it doesn\'t read/write from/to any file present in your device. \n
+        * It doesn\'t use any network (internet, wifi or bluetooth), \n
+        \n
+        So, you can be 100% sure that your data is safe and secure.
+        \n
+        ---------------------------------------------------------- \n
+        Developer__\n
+        \t Shadab Quaiser \n
+        \t (gentle.shadab@gmail.com)
+    </string>
+</resources>
